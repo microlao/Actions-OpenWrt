@@ -12,7 +12,7 @@ name: Build OpenWrt
 
 on:
   repository_dispatch:
-    watch:
+  watch:
     types: started
   workflow_dispatch:
     inputs:
